@@ -2,7 +2,7 @@ spring:
   application:
     name: product-server  # BẮT BUỘC PHẢI CÓ
   datasource:
-    url: jdbc:mysql://localhost:3306/product_dev
+    url: jdbc:mysql://localhost:3306/haiphuoc_database
     username: khangdb  
     password: Tranquockhang123
 
