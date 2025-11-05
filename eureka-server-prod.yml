@@ -1,4 +1,3 @@
-
 server:
   port: 8761
 
@@ -6,3 +5,10 @@ eureka:
   client:
     register-with-eureka: false
     fetch-registry: false
+
+# Bạn có thể thêm security production
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
