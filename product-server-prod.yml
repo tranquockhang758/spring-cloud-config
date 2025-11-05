@@ -2,7 +2,7 @@ spring:
   application:
     name: product-server   # Tên service phải giống tên folder hoặc tên file config
   datasource:
-    url: jdbc:mysql://prod-db-server:3306/product
+    url: jdbc:mysql://prod-db-server:3306/haiphuoc_database
     username: khangdb  
     password: Tranquockhang123
 
